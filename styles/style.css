@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.container{
+    
+    max-width: 1070px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color:rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+
+.header_flex, .footer_flex , .section_flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.IMG{
+    margin-left: 100px;
+    
+}
+
+.li{
+    display: inline-block;
+    
+}
+.li:not(:first-of-type){
+    margin-left:49px;
+}
+.link{
+font-weight: bold;
+font-size: 15px;
+line-height: 20px;
+letter-spacing: -0.47px;
+color: #696871;
+text-decoration: none;
+}
+.link:hover {
+    color:black;
+    transition: 300ms;
+    
+}
+
+.button{
+        height: 60px;
+        width: 150px;
+        font-weight: Bold;
+        font-size: 17px;
+        line-height: 22px;
+        Letter-spacing: -0.53px;
+        color:#FFFFFF;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.button_orange{
+    background: #FF7143;
+}
+.button_orange:hover{
+    background: #f85823;
+    transition: 400ms;
+}
+
+.main{
+    font-weight: Bold;
+    font-size : 80px;
+    Letter-spacing: -2.5px;
+    Line-height: 77px;  
+    Line-height: 74%;
+    margin-bottom: 30px;
+    color: #19191B;
+}
+
+.section{
+    max-width: 450px;
+    margin-left: 191px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.downMain{
+    Font-size: 20px;
+    Line-height: 30px;
+    Letter-spacing: -0.63px;
+    color:#696871;
+    margin-bottom: 50px;
+
+}
+
+.button_1{
+    background: #5454D4;
+   height: 60px;
+   width: 150 px;
+   margin-right: 20 px;
+
+}
+
+.button_2{
+    background: none;
+    color: #5454D4;
+    border: 1px solid #5454D4;
+    margin-left: 15px;  
+}
+
+.button_1:hover{
+    background: #4242ce;
+    transition: 300ms;
+}
+.button_2:hover{
+    background: #e3e3f8;
+    transition: 300ms;
+}
+
+.container2{
+    background-color:rgba(255, 113, 67, 0.27);
+    padding: 38px 0 48px;
+}
+.footer{
+    max-width: 1070px;
+    margin: 0 auto;
+}
